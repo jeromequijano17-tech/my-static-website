@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            min-height: 100vh;
+            background-image: url("https://64.media.tumblr.com/5fad5eebb3a4b99b783d796469099d34/tumblr_pj5y7aQYto1svxf0ao1_1280.gifv");
+            background-size: cover;
+            background-position: center;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            flex: 1; /* takes available space */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            text-align: center;
+            background: rgba(0, 0, 0, 0.55);
+            padding: 50px;
+            border-radius: 12px;
+            margin: 40px;
+        }
+
+        h1 {
+            color: #ffffff;
+            margin-bottom: 35px;
+            font-size: 36px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            text-decoration: none;
+            padding: 14px 32px;
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+            border-radius: 30px;
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+            opacity: 0.9;
+        }
+
+        .btn.secondary {
+            background: linear-gradient(135deg, #43e97b, #38f9d7);
+        }
+
+        .btn.third {
+            background: linear-gradient(135deg, #fa709a, #fee140);
+        }
+
+        footer {
+            background-color: #2b2b2b;
+            color: #ffffff;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Welcome to JQuijano Entertainment Site</h1>
+
+        <div class="buttons">
+            <a href="https://bastikwang.pages.dev/" class="btn">TV</a>
+            <a href="https://goplay.su/" class="btn">KDrama</a>
+            <a href="https://moviebox.ph/" class="btn secondary">Movies</a>
+            <a href="https://hicartoon.to/recently-updated" class="btn secondary">Cartoons</a>
+            <a href="https://www.play123.com/" class="btn third">Play Games</a>
+            <a href="https://radio.org.ph/#yes" class="btn">Radio</a>
+            <a href="https://tagsingco.com/Session?id=SING-FUFJPT4Z" class="btn secondary">Karaoke</a>
+            <a href="https://weebcentral.com/" class="btn secondary">Manga</a>
+            <a href="https://www.toontales.net/" class="btn third">Classic Toons</a>
+        </div>
+    </div>
+
+    <footer>
+        <img src="coffee.png" alt="Pang Kape" style="
+            width:50px;
+            height:50px;
+            border-radius:50%;
+            object-fit:cover;
+        ">
+        <div style="font-size:14px; line-height:1.4;">
+            Pang Kape Project ☕
+            <span style="display:block; font-size:12px; color:#cccccc;">
+                Support the dev. Kape muna 😄
+            </span>
+        </div>
+    </footer>
+
+</body>
+</html>
